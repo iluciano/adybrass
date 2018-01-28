@@ -1,11 +1,16 @@
 .menu-nav {
-    padding: 25px 0 25px 0 !important;
+    padding: 25px !important;
+}
+.v-pills-home-tab :active {
+    background-color: #000;
+    border-left: 2px solid #000;
 }
 .menu-nav-a {
-    font-size: 2em !important;  
+    font-size: 1.2em !important;
+    font-variant-caps: all-petite-caps;
 }
 .fundo-home {
-    background-image: url('../src/imagens/fundo.jpg');
+    /* background-image: url('../src/imagens/fundo.jpg'); */
     height: 100%;
     margin-bottom: 0;
     padding: 10px 20px;
