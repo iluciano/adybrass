@@ -14,41 +14,54 @@
         <div class="container">
             <div class="row">
                 <div class="col-2">
+                    <div class="nav flex-column nav-pills" id="v-pills-tab-home" role="tablist" aria-orientation="vertical">
+                        <a class="nav-item menu-nav active" id="v-pills-home-tab" data-toggle="pill" href="#v-pills-home" role="tab" aria-controls="v-pills-home" aria-selected="true">Adybrass</a>
+                    </div>    
+                </div>
+                <div class="col"></div>
+            </div>
+            <div class="row">
+                <div class="col-2">
                     <header>
                         <nav class="navbar navbar-expand-lg">
                             <button class="navbar-toggler" type="button" data-toggle="colapse" data-target="#navbarTogglerLateral" aria-controls="navbarTogglerLateral" aria-expanded="false" aria-label="Toggle navigation">
                                 <span class="navbar-toggler-icon"></span>
                             </button>
-                            <div class="collapse navbar-collapse" id="navbarTogglerLateral">
-                                <ul class="nav flex-column">
-                                    <li class="nav-item menu-nav">
-                                        <a class="navbar-brand menu-nav-a" href="#">Adybrass</a>
-                                    </li>
-                                    <li class="nav-item menu-nav">
-                                        <a class="nav-link active" href="#">Quem Somos</a>
-                                    </li>
-                                    <li class="nav-item menu-nav">
-                                        <a class="nav-link" href="#">Serviços</a>
-                                    </li>
-                                    <li class="nav-item menu-nav">
-                                        <a class="nav-link" href="#">Contato</a>
-                                    </li>
-                                    <li class="nav-item menu-nav">
-                                        <a class="nav-link" href="#">Localização</a>
-                                    </li>
-                                    <li class="nav-item menu-nav">
-                                        <a class="nav-link" href="#">Links</a>
-                                    </li>
-                                    <li class="nav-item menu-nav">
-                                        <a class="nav-link disabled" href="#">Administração</a>
-                                    </li>
-                                </ul>
+                            <div class="nav flex-column nav-pills" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+                                <a class="nav-item menu-nav" id="v-pills-quemsomos-tab" data-toggle="pill" href="#v-pills-quemsomos" role="tab" aria-controls="v-pills-quemsomos" aria-selected="false">Quem Somos</a>
+                                <a class="nav-item menu-nav" id="v-pills-servicos-tab" data-toggle="pill" href="#v-pills-servicos" role="tab" aria-controls="v-pills-servicos" aria-selected="false">Serviços</a>
+                                <a class="nav-item menu-nav" id="v-pills-contato-tab" data-toggle="pill" href="#v-pills-contato" role="tab" aria-controls="v-pills-contato" aria-selected="false">Contato</a>
+                                <a class="nav-item menu-nav" id="v-pills-localizacao-tab" data-toggle="pill" href="#v-pills-localizacao" role="tab" aria-controls="v-pills-localizacao" aria-selected="false">Localização</a>
+                                <a class="nav-item menu-nav" id="v-pills-links-tab" data-toggle="pill" href="#v-pills-links" role="tab" aria-controls="v-pills-links" aria-selected="false">Links</a>
+                                <a class="nav-item menu-nav" id="v-pills-administracao-tab" data-toggle="pill" href="#v-pills-administracao" role="tab" aria-controls="v-pills-administracao" aria-selected="false">Administração</a>
                             </div>
                         </nav>
                     </header>
                 </div>
-                <div class="col" style="background-color:black;">
-
+                <div class="col">
+                    <div class="tab-content" id="v-pills-tabContent">
+                        <div class="tab-pane fade show active" id="v-pills-home" role="tabpanel" aria-labelledby="v-pills-home-tab">
+                            <p>Home Teste</p>
+                        </div>                    
+                        <div class="tab-pane fade" id="v-pills-quemsomos" role="tabpanel" aria-labelledby="v-pills-quemsomos-tab">
+                            <p>Quem Somos</p>
+                        </div>
+                        <div class="tab-pane fade" id="v-pills-servicos" role="tabpanel" aria-labelledby="v-pills-servicos-tab">
+                            <p>Serviços</p>
+                        </div>
+                        <div class="tab-pane fade" id="v-pills-contato" role="tabpanel" aria-labelledby="v-pills-contato-tab">
+                            <p>Contato</p>
+                        </div>
+                        <div class="tab-pane fade" id="v-pills-localizacao" role="tabpanel" aria-labelledby="v-pills-localizacao-tab">
+                            <p>Localização</p>
+                        </div>
+                        <div class="tab-pane fade" id="v-pills-links" role="tabpanel" aria-labelledby="v-pills-links-tab">
+                            <p>Links</p>
+                        </div>
+                        <div class="tab-pane fade" id="v-pills-administracao" role="tabpanel" aria-labelledby="v-pills-administracao-tab">
+                            <p>Administração</p>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
