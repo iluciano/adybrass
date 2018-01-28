@@ -3,4 +3,10 @@
 }
 .menu-nav-a {
     font-size: 2em !important;  
-}   
+}
+.fundo-home {
+    background-image: url('../src/imagens/fundo.jpg');
+    height: 100%;
+    margin-bottom: 0;
+    padding: 10px 20px;
+}
