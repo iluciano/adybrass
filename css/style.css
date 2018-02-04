@@ -1,3 +1,6 @@
+* {
+    font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif;
+}
 a {
     color: #2781ba !important; 
 }
@@ -18,12 +21,13 @@ a {
     padding: 10px 20px;
 }
 .nav-pills .nav-link.active, .nav-pills .show>.nav-link {
-    border-left: 4px solid #007bff !important;
+    border-left: 6px solid #007bff !important;
     background-color: #f5f7f7 !important;
-    color: #000 !important;
+    color: #143270 !important;
 }
 .nav-pills .nav-link {
     border-radius: 0 !important;
+    background-color: #fff !important;
 }
 .nav-link:focus, .nav-link:hover {
     background-color: #f5f7f7 !important;
@@ -31,12 +35,39 @@ a {
 .fundo-col {
     background-color: #2781ba;
 }
-.fonte-branca {
-    color: #fff;
-}
 .navbar {
     padding: 0 !important;
 }
 .col-2 {
     padding-left: 0 !important;
+}
+.faixa-top-p{
+    margin-top: 50px;
+}
+@media screen and (max-width: 415px) {
+    .faixa-top{
+        display: none;
+    }
+}
+.sem-padding-left {
+    padding-left: 0 !important;
+}
+.texto-menor {
+    font-size: 1.10rem !important;
+    font-weight: lighter !important;
+}
+@media screen and (min-width: 415px) {
+    .texto-footer {
+        margin-left: 105px;
+    }
+}
+@media screen and (max-width: 415px) {
+    .nav-card{
+        margin-bottom: 10px;
+    }
+}
+@media screen and (min-width: 415px) {
+    .nav-card{
+        margin-left:15px;
+    }
 }
