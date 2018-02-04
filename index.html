@@ -433,10 +433,114 @@
                                 <div class="row">
                                     <div class="col-12"><h2 class="text-light border-bottom border-light">Links</h2></div>
                                 </div>
+                                <div class="row">
+                                    <div class="col">
+                                        <h5 class="text-light">Associações</h5>
+                                        <ul class="list-group">
+                                            <li class="list-group-item"><a href="revistamm.cviewer.com/amm/cViewer/edicao.asp?ed=604" target="_blank"><i class="fas fa-globe"></i> Associação Brasileira de Metalurgia</a></li>
+                                            <li class="list-group-item"><a href="http://abal.org.br/noticia/aluauto-ganha-novo-formato-e-linha-editorial/" target="_blank"><i class="fas fa-globe"></i> Associação Brasileira de Alumínio</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                         <div class="tab-pane fade" id="v-pills-administracao" role="tabpanel" aria-labelledby="v-pills-administracao-tab">
-                            <p>Administração</p>
+                            <div class="container">
+                                <div class="row">
+                                    <div class="col-12"><h2 class="text-light border-bottom border-light">Administração</h2></div>
+                                </div>
+                                <div class="row">
+                                    <div class="col">
+                                        <h5 class="text-light">Área de login</h5>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col">
+                                        <form>
+                                            <div class="row">
+                                                <div class="col-12 col-sm-4"></div>
+                                                <div class="col-12 col-sm-4">
+                                                    <div class="form-group">
+                                                        <!-- <label class="text-light" for="formNomeUser">Nome de Usuário</label> -->
+                                                        <input type="text" class="form-control form-control-lg" id="formNomeUser" placeholder="Usuário" required>
+                                                        <small class="text-light"><a href="" class="text-light" data-toggle="modal" data-target="#ModalUser">Esqueceu seu nome de usuário?</a></small>
+                                                    </div>
+                                                </div>
+                                                <div class="col-12 col-sm-4"></div>
+                                            </div>
+                                            <div class="row">
+                                                <div class="col-12 col-sm-4"></div>
+                                                <div class="col-12 col-sm-4">
+                                                    <div class="form-group">
+                                                        <!-- <label class="text-light" for="formSenhaUser">Senha</label> -->
+                                                        <input type="password" class="form-control form-control-lg" id="formSenhaUser" placeholder="Senha" required>
+                                                        <small class="text-light"><a href="" class="text-light" data-toggle="modal" data-target="#ModalSenha">Esqueceu sua senha?</a></small><br/>
+                                                    </div>
+                                                </div>
+                                                <div class="col-12 col-sm-4"></div>
+                                            </div>
+                                            <div class="row">
+                                                <div class="col-12 col-sm-4"></div>
+                                                <div class="col-12 col-sm-4">
+                                                    <div class="form-group">
+                                                        <button type="button" class="btn btn-secondary btn-lg">Login</button>
+                                                    </div>
+                                                </div>
+                                                <div class="col-12 col-sm-4"></div>
+                                            </div>
+                                        </form>
+                                    </div>
+                                </div>
+                                <!-- Esqueceu Login -->
+                                <div class="modal fade" id="ModalUser" tabindex="-1" role="dialog" aria-labelledby="ModalUserLabel" aria-hidden="true">
+                                    <div class="modal-dialog" role="document">
+                                        <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h5 class="modal-title" id="ModalUserLabel">Recuperar Login</h5>
+                                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                            <span aria-hidden="true">&times;</span>
+                                            </button>
+                                        </div>
+                                        <div class="modal-body">
+                                            <form>
+                                                <div class="form-group">
+                                                    <label for="email" class="col-form-label">E-mail:</label>
+                                                    <input type="email" class="form-control" id="email" required>
+                                                    <small class="text-primary">Por favor, informe o endereço de e-mail associado à sua conta. 
+                                                            Seu Nome de Usuário será enviado para o e-mail fornecido.</small>
+                                                </div>
+                                                <button type="button" class="btn btn-primary">Enviar</button>
+                                            </form>
+                                        </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- Esqueceu Senha -->
+                                <div class="modal fade" id="ModalSenha" tabindex="-1" role="dialog" aria-labelledby="ModalSenhaLabel" aria-hidden="true">
+                                    <div class="modal-dialog" role="document">
+                                        <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h5 class="modal-title" id="ModalSenhaLabel">Recuperar Senha</h5>
+                                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                            <span aria-hidden="true">&times;</span>
+                                            </button>
+                                        </div>
+                                        <div class="modal-body">
+                                            <form>
+                                                <div class="form-group">
+                                                    <label for="email" class="col-form-label">E-mail:</label>
+                                                    <input type="email" class="form-control" id="email" required>
+                                                    <small class="text-primary">Por favor, informe o endereço de e-mail da sua conta. 
+                                                            Um token de verificação será enviado a você. Uma vez que tiver recebido o token, 
+                                                            você poderá escolher uma nova senha para sua conta.</small>
+                                                </div>
+                                                <button type="button" class="btn btn-primary">Enviar</button>
+                                            </form>
+                                        </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>                              
                         </div>    
                     </div>
                 </div>
