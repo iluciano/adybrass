@@ -8,7 +8,7 @@ a {
     padding: 30px 10px 20px 10px;
 }
 .menu-nav {
-    padding: 30px 80px 30px 25px !important;
+    padding: 30px 180px 30px 25px !important;
 }
 .menu-nav-a {
     font-size: 1.2em !important;
@@ -35,6 +35,15 @@ a {
 .fundo-col {
     background-color: #2781ba;
 }
+@media screen and (min-width: 415px) {
+    .fundo-col-video {
+        min-height: 600px;
+    }
+    .fundo-p-home {
+        background-color: rgba(10,23,55,0.5);
+    }
+}
+
 .navbar {
     padding: 0 !important;
 }
@@ -70,4 +79,18 @@ a {
     .nav-card{
         margin-left:15px;
     }
+}
+
+#myVideo {
+    width:100%;
+    background-size: cover;
+    transition: 1s opacity;
+    opacity: 0.8;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.img-pequena {
+    width: 100px !important;
+    height: 100px !important;
 }
